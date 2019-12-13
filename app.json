@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Daniel",
+    "description": "Freelance web developer",
+    "slug": "daniel",
+    "privacy": "unlisted",
+    "sdkVersion": "29.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "loading": {
+      "icon": "./assets/icon.png",
+      "hideExponentText": false
+    },
+    "packagerOpts": {
+      "assetExts": [
+        "ttf",
+        "mp4",
+        "otf",
+        "xml"
+      ]
+    },
+    "splash": {
+  		"image": "./assets/icon.png",
+  		"backgroundColor": "#fff",
+  		"resizeMode": "contain"
+	},
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.danielk.daniel"
+    },
+    "android": {
+      "package": "com.danielk.daniel"
+    }
+  }
+}
